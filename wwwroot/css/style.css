@@ -63,6 +63,7 @@ body {
     line-height: var(--lh-comfortable);
     background-color: var(--clr-white);
     color: var(--clr-black);
+    text-align: center;
 }
 
 /* typeography */
@@ -102,13 +103,14 @@ ul {
 }
 
 .container {
+    margin-top: 23px;
     width: 100%;
-    max-width: 1366px;
-    margin: auto;
+    text-align: center;
 }
 
 .content, footer {
     margin: 0px 13px;
+    text-align: center;
 }
 
 .navbar-brand img {
@@ -127,11 +129,15 @@ ul {
 .main-nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 75px;
     padding: 20px 0;
     font-size: var(--fs-large);
     background-color: var(--clr-secondary-400);
+}
+
+.center {
+    text-align: center;
 }
 
 .main-nav .logo {
